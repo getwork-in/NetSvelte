@@ -6,11 +6,8 @@
   import AuthorizeView from './AuthorizeView.svelte';
 </script>
 
-
   <Router>
     <Route component={Home} />
     <Route path="/login" component={Login}/>
     <Route path="/register" component={Register}/>
   </Router>
-
-
